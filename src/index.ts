@@ -17,4 +17,4 @@ const app = new Elysia()
     .listen(port);
 
 logger.info(`🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`);
-logger.info(`Swagger available at http://${app.server?.hostname}:${app.server?.port}/swagger`);
+logger.info(`Swagger available at ${app.server?.hostname}:${app.server?.port}/swagger`);

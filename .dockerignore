@@ -1,0 +1,9 @@
+node_modules
+.git
+.env
+README.md
+GEMINI.md
+*.log
+.DS_Store
+dist
+test

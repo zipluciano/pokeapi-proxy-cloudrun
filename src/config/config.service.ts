@@ -16,7 +16,6 @@ export class ConfigService {
     public readonly env: EnvConfig;
 
     constructor() {
-        // Bun.env is automatically loaded
         const parsed = envSchema.safeParse(Bun.env);
         if (!parsed.success) {
             console.error('Invalid environment variables:', parsed.error.format());
