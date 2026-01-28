@@ -6,6 +6,8 @@ Esta é uma API REST moderna e Orientada a Objetos, construída com **Bun.js** e
 
 Este projeto foi criado principalmente para testar estratégias de deploy no **Google Cloud Run (GCR)**.
 
+**🔗 URL de Produção:** https://pokeapi-proxy-cloudrun-265860524559.europe-west1.run.app
+
 **O que é o Google Cloud Run?**
 O Google Cloud Run é uma plataforma de computação totalmente gerenciada que permite rodar contêineres stateless invocáveis via requisições web ou eventos Pub/Sub. Ele abstrai o gerenciamento de infraestrutura, permitindo que você foque apenas no código. É serverless, o que significa que escala automaticamente (até zero) dependendo do tráfego, tornando-se altamente eficiente e econômico para APIs como esta.
 
