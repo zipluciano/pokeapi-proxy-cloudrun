@@ -1,0 +1,25 @@
+{
+  "name": "open-code-tests",
+  "module": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.3.1",
+    "elysia": "^1.4.22",
+    "inversify": "^7.11.0",
+    "pino": "^10.3.0",
+    "pino-pretty": "^13.1.3",
+    "reflect-metadata": "^0.2.2",
+    "zod": "^4.3.6"
+  }
+}
